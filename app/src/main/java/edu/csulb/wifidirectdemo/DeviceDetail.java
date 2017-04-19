@@ -1,8 +1,7 @@
-package edu.csulb.wifidirectdemo.dummy;
+package edu.csulb.wifidirectdemo;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.net.wifi.WpsInfo;
@@ -28,12 +27,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-
-import edu.csulb.wifidirectdemo.DeviceListFragment;
-import edu.csulb.wifidirectdemo.FileTransferService;
-import edu.csulb.wifidirectdemo.R;
-import edu.csulb.wifidirectdemo.WifiDirectActivity;
-import edu.csulb.wifidirectdemo.WifiDirectApp;
 
 
 public class DeviceDetail extends Fragment {

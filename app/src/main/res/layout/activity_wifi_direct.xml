@@ -6,7 +6,6 @@
     android:layout_height="fill_parent">
     <LinearLayout
         android:layout_width="match_parent"
-        android:id="@+id/linearLayout1"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <fragment
@@ -17,7 +16,7 @@
             <!-- Preview: layout=@layout/row_devices -->
         </fragment>
         <fragment
-            class="edu.csulb.wifidirectdemo.dummy.DeviceDetail"
+            class="edu.csulb.wifidirectdemo.DeviceDetail"
             android:id="@+id/frag_detail"
             android:layout_width="match_parent"
             android:layout_height="match_parent">

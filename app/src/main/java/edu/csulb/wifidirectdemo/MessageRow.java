@@ -7,8 +7,6 @@ import static edu.csulb.wifidirectdemo.Constants.MSG_TIME;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.StringTokenizer;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

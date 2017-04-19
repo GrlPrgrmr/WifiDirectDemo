@@ -76,27 +76,6 @@ public class AppPreferences {
         }
     }
 
-    /**
-     * Get the value of a key from a different preference in the same application
-     * adb shell cat /data/data/com.motorola.contextual.smartrules/shared_prefs/com.motorola.contextual.virtualsensor.locationsensor.xml
-     *
-     * <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-     * <map>
-     * <string name="poi">Location:1331910178767</string>
-     * <string name="background_scan">1</string>
-     * </map>
-     *
-     * @param preferenceFileName, the file name under shared_prefs dir
-     * @param key the key
 
-     */
-    public static boolean getBooleanFromPref(Context ctx, String preferenceFileName, String key) {
-        boolean value = false;
-        SharedPreferences pref = ctx.getSharedPreferences(preferenceFileName, 0);
-        if( pref != null){
-            value = pref.getBoolean(key, false);
-        }
-        return value;
-    }
 }
 

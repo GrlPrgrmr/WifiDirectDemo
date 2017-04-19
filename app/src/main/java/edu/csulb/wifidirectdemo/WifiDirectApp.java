@@ -1,14 +1,10 @@
 package edu.csulb.wifidirectdemo;
 
 import android.app.Application;
-import android.app.Notification;
 import android.content.Intent;
 import android.net.wifi.p2p.WifiP2pDevice;
 import android.net.wifi.p2p.WifiP2pInfo;
 import android.net.wifi.p2p.WifiP2pManager;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
 import android.util.Log;
 import android.os.Message;
 
@@ -20,7 +16,7 @@ import java.util.List;
 
 import static edu.csulb.wifidirectdemo.Constants.MSG_STARTCLIENT;
 import static edu.csulb.wifidirectdemo.Constants.MSG_STARTSERVER;
-import edu.csulb.wifidirectdemo.ConnectionService;
+
 
 public class WifiDirectApp extends Application {
 

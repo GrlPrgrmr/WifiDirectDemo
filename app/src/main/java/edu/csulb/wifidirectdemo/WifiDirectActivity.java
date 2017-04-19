@@ -23,8 +23,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import edu.csulb.wifidirectdemo.dummy.DeviceDetail;
-
 public class WifiDirectActivity extends AppCompatActivity implements WifiP2pManager.ChannelListener, DeviceListFragment.DeviceActionListener {
 
 

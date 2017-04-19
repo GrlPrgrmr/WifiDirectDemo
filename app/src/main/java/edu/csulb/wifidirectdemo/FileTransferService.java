@@ -14,8 +14,6 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 
-import edu.csulb.wifidirectdemo.dummy.DeviceDetail;
-
 /**
  * Created by Neha on 4/13/2017.
  */

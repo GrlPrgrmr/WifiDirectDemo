@@ -27,11 +27,5 @@ public final class Constants {
     public static final String MSG_TIME = "time";
     public static final String MSG_CONTENT = "msg";
 
-    // analytics tracking category, action, label and value
-    public static final String CAT_LOCATION = "LocationRule";
-    public static final String ACT_CREATE = "Create";
-    public static final String ACT_DELETE = "Delete";
-    public static final String LAB_HOME = "HomeRule";
-    public static final String LAB_WORK = "WorkRule";
-    public static final String LAB_OTHER = "OtherRule";
+
 }
